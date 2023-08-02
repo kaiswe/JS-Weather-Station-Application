@@ -1,4 +1,4 @@
-# Weather-Application
+# JS-Weather-Station-Application
 A web client and server used to aynchronously display specific weather measurements in various formats
 
 A robust application that enforces a strong foundation of modularity, the correct use of external JS libraries to display and/or process external XML
