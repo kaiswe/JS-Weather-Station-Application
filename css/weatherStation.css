@@ -1,0 +1,180 @@
+html {
+  background-color: rgb(157, 176, 180)
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+th,
+td,
+tr {
+  border: 1px solid #000000;
+  padding-top: 50px;
+}
+
+input[name='dataElements'] {
+  font-size: large;
+  font-family: monospace;
+}
+
+#dataWrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.rowHeaders {
+  float: right;
+  border: 1px solid #000000;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-div {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-left: 300px;
+}
+
+#canvasDiv {
+  width: 2000px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  padding-left: 100px;
+}
+
+.dt-head-center {
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.pageTitle {
+  font-weight: 200;
+  margin-top: 75px;
+  text-align: center;
+  background-color: #04aa9c;
+  font-size: 40px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  border-radius: 2em 2em;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+div[id=inputFeedback] {
+
+  text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 12px;
+
+}
+
+select[id=tFmonthTwo] {
+  display: inline-flex;
+}
+
+select[id=tFmonthOne] {
+  display: inline-flex;
+}
+
+p[id=monthConnect] {
+  display: inline-flex;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 12px;
+}
+
+div[id=feedbackDiv] {
+  text-align: center;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 12px;
+}
+
+
+.subTitle {
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 2em 2em;
+  background-color: #04aa9c;
+  line-height: 1em;
+  font-size: 25px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: monospace;
+}
+
+#main-form-div {
+  border-radius: 5px;
+  background-color: rgb(47, 142, 163);
+  padding: 20px;
+  height: 100%;
+}
+
+
+.userSelections {
+  margin: auto;
+  width: 35%;
+  padding-left: 100px;
+  margin: 0 auto;
+}
+
+
+#main-form-table .labels {
+  font-size: 24px;
+  font-style: inherit;
+  padding-left: 500px;
+}
+
+#submitData {
+  font-size: 15px;
+  font-style: inherit;
+  font-family: monospace;
+  font-weight: bolder;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.userInputs {
+  font-size: 15px;
+  font-style: inherit;
+  font-family: monospace;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.labels {
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.radioLabel {
+  font-size: 15px;
+  font-style: inherit;
+  font-family: monospace;
+  font-weight: bolder;
+}
